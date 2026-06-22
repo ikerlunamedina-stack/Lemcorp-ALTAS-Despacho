@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     contenedor.innerHTML += `
-      <div class="card">
+      <div class="card" style="animation-delay: ${index * 0.05}s">
         <div class="producto">
           <div class="nombre">
             <b>${producto.nombre}</b><br>
@@ -153,7 +153,7 @@ function mostrarProductos() {
     }
 
     contenedor.innerHTML += `
-      <div class="card">
+      <div class="card" style="animation-delay: ${index * 0.05}s">
         <div class="producto">
           <div class="nombre">
             <b>${producto.nombre}</b><br>
